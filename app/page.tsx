@@ -7,7 +7,12 @@ import { MdPeople } from "react-icons/md";
 import { SlCalender } from "react-icons/sl";
 import { BsGraphDownArrow } from "react-icons/bs";
 import { HiOutlineArrowRight } from "react-icons/hi";
-  
+  import dashboard from './dashboard/page';
+import { FcDepartment } from "react-icons/fc";
+import { FiCheckCircle } from "react-icons/fi";
+import { IoCallOutline } from "react-icons/io5";
+import { MdOutlineEmail } from "react-icons/md";
+import { CiLocationOn } from "react-icons/ci";
 
 const page = () => {
   return (
@@ -66,8 +71,127 @@ const page = () => {
 <BsGraphDownArrow size={40} color='purple'/>
   </div>
 </div>
+</div>
 
-   </div>
+<div>
+  <div className='mt-15 text-center'>
+    <h1 className='text-3xl font-bold'>Powerful Features</h1>
+    <p className='text-gray-600'>Everything you need to run a modern healthcare facility</p>
+  </div>
+</div>
+
+{/* card. section */}
+
+<div className='grid grid-cols-2 lg:grid-cols-4 gap-10 p-10 mt-10'>
+  <div className='bg-white p-5 rounded-lg  flex flex-col gap-3 hover:shadow-lg'>
+    <span className='bg-blue-100 w-[12%] p-2 rounded-lg '><MdPeople size={20} color='blue'/></span>
+    <h1 className='text-lg font-semibold'>Patient Management</h1>
+    <p className='text-gray-600'>Comprehensive patient records and history.</p>
+  </div>
+
+  <div className='bg-white p-5 rounded-lg hover:shadow-lg flex flex-col gap-5 '>
+    <span className='bg-blue-200 w-[12%] p-2 rounded-lg '><SlCalender size={20} color='blue'/></span>
+    <h1 className='text-xl font-bold'>Smart Scheduling</h1>
+    <p className='text-gray-600'>Seamless multi-department collaboration.</p>
+  </div>
+
+  <div className='bg-white p-5 rounded-lg hover:shadow-lg flex flex-col gap-5'>
+    <span className='bg-blue-200 w-[12%] p-2 rounded-lg '><FcDepartment size={20} color='blue'/></span>
+    <h1 className='text-xl font-bold'>Department Coordination</h1>
+    <p className='text-gray-600'>Efficient management of hospital departments.</p>
+  </div>
+
+  <div className='bg-white p-5 rounded-lg hover:shadow-lg flex flex-col gap-5'>
+    <span className='bg-blue-200 w-[12%] p-2 rounded-lg '><BsGraphDownArrow size={20} color='blue'/></span>
+    <h1 className='text-xl font-bold'>PEmergency Care</h1>
+    <p className='text-gray-600'>24/7 critical care monitoring.</p>
+  </div>
+
+</div>
+
+
+<div className='m-20 p-7 bg-white flex flex-col gap-10 rounded-lg shadow-lg lg:flex-row lg:justify-around lg:items-center'>
+<div>
+  <div className=''>
+    <h1 className='text-2xl font-bold'>Why Choose MediCare?</h1>
+    <p className='w-100'>Our platform is designed by healthcare professionals for healthcare professionals. 
+      We understand the unique challenges of hospital management and have built solutions that work.</p>
+<div className='flex items-center gap-2 mt-5 duration-150 transition-transform hover:scale-105 w-max'>
+      <Link href='/dashboard' className='text-blue-600 text-lg font-semibold'>Get Started Now </Link>
+  <span className='text-blue-600'><HiOutlineArrowRight size={20}/></span>
+</div>
+  </div>
+</div>
+
+<div className='flex flex-col gap-3'>
+  <div className='flex gap-3 mt-10'>
+    <FiCheckCircle color='green'/>
+     <p>Real-time patient tracking and updates</p>
+  </div>
+  <div className='flex gap-3'>
+    <FiCheckCircle color='green'/>
+   <p>Integrated appointment scheduling</p> 
+  </div>
+  <div className='flex gap-3'>
+    <FiCheckCircle color='green'/>
+   <p>Complete medical staff directory</p>
+  </div>
+  <div className='flex gap-3'>
+    <FiCheckCircle color='green'/>
+   <p>Emergency department management</p>
+  </div>
+  <div className='flex gap-3'>
+    <FiCheckCircle color='green'/>
+   <p>Department-wise analytics</p>
+  </div>
+
+  <div className='flex gap-3'>
+    <FiCheckCircle color='green'/>
+   <p>Secure patient data storage</p>
+  </div>
+
+</div>
+</div>
+
+<div className=' m-20'>
+  <div className='bg-gradient-to-r from-blue-600 to-purple-600  p-7 rounded-lg text-white'>
+    <h1 className='text-center text-3xl font-bold'>Ready to Transform Your Hospital?</h1>
+    <p className='text-center'>Join hundreds of healthcare facilities already using MediCare</p>
+
+<div className='flex flex-col items-center'>
+<div className='flex flex-row gap-10'>
+  <div className='flex mt-10 gap-3 items-center text-lg'>
+    <IoCallOutline size={30}/>
+  <p>+1 234-567-8900</p>
+</div>
+
+<div className='flex mt-10 gap-3 items-center text-lg'>
+<MdOutlineEmail size={30}/>
+<p>info@medicare.com</p>
+</div>
+</div>
+
+<div className='flex mt-10 gap-3 items-center text-lg'>
+  <CiLocationOn size={30}/>
+  <p>123 Medical Plaza, New York</p>
+</div>
+
+</div>
+
+<div className='bg-white p-7 mt-10 rounded-lg text-blue-600 text-xl font-bold flex items-center justify-center gap-2 w-max mx-auto hover:shadow-lg duration-150 transition-transform hover:scale-105'>
+  <Link href='/dashboard' className='couser-pointer
+  '>Access Dashboard</Link>
+  <span className='text-blue-600'><HiOutlineArrowRight size={20}/></span>
+</div>
+
+  </div>
+</div>
+
+
+
+
+
+   
    </div>
    </div>
     </div>
