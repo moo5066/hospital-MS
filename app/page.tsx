@@ -158,8 +158,8 @@ const page = () => {
     <h1 className='text-center text-3xl font-bold'>Ready to Transform Your Hospital?</h1>
     <p className='text-center'>Join hundreds of healthcare facilities already using MediCare</p>
 
-<div className='flex flex-col items-center'>
-<div className='flex flex-row gap-10'>
+<div className='lg:flex lg:flex-col lg:gap-10 mt-10 lg:items-center flex flex-col gap-5'>
+<div className='lg:flex lg:flex-row gap-10 flex flex-col items-center'>
   <div className='flex mt-10 gap-3 items-center text-lg'>
     <IoCallOutline size={30}/>
   <p>+1 234-567-8900</p>
