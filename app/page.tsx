@@ -7,7 +7,7 @@ import { MdPeople } from "react-icons/md";
 import { SlCalender } from "react-icons/sl";
 import { BsGraphDownArrow } from "react-icons/bs";
 import { HiOutlineArrowRight } from "react-icons/hi";
-  import dashboard from './dashboard/page';
+// import Dashboard from 'Dashboard/page.jsx';
 import { FcDepartment } from "react-icons/fc";
 import { FiCheckCircle } from "react-icons/fi";
 import { IoCallOutline } from "react-icons/io5";
@@ -17,6 +17,7 @@ import { CiLocationOn } from "react-icons/ci";
 const page = () => {
   return (
     <div>
+
        <div>
    <div>
     <div className='flex justify-between items-center p-5'>
@@ -42,7 +43,7 @@ const page = () => {
 
 <div className='flex gap-5 items-center'>
   <div className='bg-blue-600 couser-pointer  text-white p-5 lg:p-3 lg:text-lg text-xl font-bold flex items-center gap-2 w-max rounded-lg shadow-md duration-150 transition-transform hover:scale-105'>
-  <Link href='/dashboard'>Access Dashboard</Link><span><HiOutlineArrowRight/></span></div>
+  <Link href='/Dashboard'>Access Dashboard</Link><span><HiOutlineArrowRight/></span></div>
   <Link href='/' className='couser-pointer border border-blue-600 text-blue-600 p-5 lg:p-3 lg:text-lg text-xlfont-bold rounded-lg shadow-md duration-150 transition-transform hover:scale-105'>Learn More</Link>
 
 </div>
@@ -117,7 +118,7 @@ const page = () => {
     <p className='w-100'>Our platform is designed by healthcare professionals for healthcare professionals. 
       We understand the unique challenges of hospital management and have built solutions that work.</p>
 <div className='flex items-center gap-2 mt-5 duration-150 transition-transform hover:scale-105 w-max'>
-      <Link href='/dashboard' className='text-blue-600 text-lg font-semibold'>Get Started Now </Link>
+      <Link href='/Dashboard' className='text-blue-600 text-lg font-semibold'>Get Started Now </Link>
   <span className='text-blue-600'><HiOutlineArrowRight size={20}/></span>
 </div>
   </div>
@@ -161,7 +162,7 @@ const page = () => {
 <div className='lg:flex lg:flex-col lg:gap-10 mt-10 lg:items-center flex flex-col gap-5'>
 <div className='lg:flex lg:flex-row gap-10 flex flex-col items-center'>
   <div className='flex mt-10 gap-3 items-center text-lg'>
-    <IoCallOutline size={30}/>
+    <IoCallOutline size={ 30}/>
   <p>+1 234-567-8900</p>
 </div>
 
@@ -179,7 +180,7 @@ const page = () => {
 </div>
 
 <div className='bg-white p-7 mt-10 rounded-lg text-blue-600 text-xl font-bold flex items-center justify-center gap-2 w-max mx-auto hover:shadow-lg duration-150 transition-transform hover:scale-105'>
-  <Link href='/dashboard' className='couser-pointer
+  <Link href='/Dashboard' className='couser-pointer
   '>Access Dashboard</Link>
   <span className='text-blue-600'><HiOutlineArrowRight size={20}/></span>
 </div>
