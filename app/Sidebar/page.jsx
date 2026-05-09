@@ -1,8 +1,10 @@
+'use client'
+
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 
-const Dashboard = () => {
+const Page = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />
@@ -11,8 +13,7 @@ const Dashboard = () => {
         <main className="flex-1 p-6">
           <h1 className="text-2xl font-bold text-gray-950">Dashboard</h1>
           <p className="mt-2 text-gray-600">
-            Welcome back. Use the sidebar to open patients, appointments,
-            doctors, departments, or emergency tools.
+            Select an item from the sidebar to manage hospital operations.
           </p>
         </main>
       </div>
@@ -20,4 +21,4 @@ const Dashboard = () => {
   )
 }
 
-export default Dashboard
+export default Page

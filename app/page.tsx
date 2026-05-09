@@ -6,9 +6,7 @@ import Link from 'next/link'
 import { MdPeople } from "react-icons/md";
 import { SlCalender } from "react-icons/sl";
 import { BsGraphDownArrow } from "react-icons/bs";
-import { HiOutlineArrowRight } from "react-icons/hi";
-// import Dashboard from 'Dashboard/page.jsx';
-import { FcDepartment } from "react-icons/fc";
+import { HiOutlineArrowRight } from "react-icons/hi";import { FcDepartment } from "react-icons/fc";
 import { FiCheckCircle } from "react-icons/fi";
 import { IoCallOutline } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
